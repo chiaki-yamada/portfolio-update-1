@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/hide-obara-TeX_yWATaBA-unsplash.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -101,6 +101,10 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff99ff;
 }
+.hobbies li {
+  list-style: none;
+}
+
 
 ul.skills {
   padding: 0;
@@ -118,6 +122,11 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.contact h1 {
+  margin-top: 100px;
+  color: cadetblue;
 }
 
 footer {
@@ -165,6 +174,11 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.main-img img {
+  width: 100%;
+  height: 700px;
 }
 
 /* Styles for larger screens */
